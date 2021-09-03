@@ -3,5 +3,9 @@
 In this exercise, we shall try to setup an mqttbridge that pulls data from verne mq to mosquitto mq
 
 ## Steps
--  docker pull eclipse-mosquitto
-    - ![pull eclipse-mosquitto](images/dockerpulleclipse-mosquitto.png)
+- eclipse-mosquitto
+    - pull eclipse-mosquitto
+![docker pull eclipse-mosquitto](images/dockerpulleclipse-mosquitto.PNG)
+    - make con
+- 
+    - 
