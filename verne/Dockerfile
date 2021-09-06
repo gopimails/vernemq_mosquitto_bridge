@@ -1,8 +1,8 @@
-FROM vernemq/vernemq
+FROM vernemq/vernemq:1.12.1
 WORKDIR /vernemq
-COPY vernemq.conf vernemq.conf
 
 EXPOSE 1884
 ENV DOCKER_VERNEMQ_ACCEPT_EULA=yes
+ENV DOCKER_VERNEMQ_ALLOW_ANONYMOUS=on
 
 CMD ["start_vernemq"]
